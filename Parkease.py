@@ -1,3 +1,1 @@
-
-
-lk
+print("Hello World") 
