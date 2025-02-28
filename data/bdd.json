@@ -1,0 +1,12 @@
+{
+    "voitures": [
+        {
+            "plaque": "AB-123-CD",
+            "entree": "12:00"
+        },
+        {
+            "plaque": "AB-321-CD",
+            "entree": "12:22"
+        }
+    ]
+}
