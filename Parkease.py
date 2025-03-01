@@ -15,7 +15,12 @@ heure = datetime.now()
 heure = heure.strftime("%H:%M:%S")
 
 if plaque_existe == False:
-    enter(plaque,heure)
+    if place_dispo < place_total:
+        enter(plaque,heure)
+        print("Bienvenue!")
+    elif place_dispo >= place_total:
+        print("Plus de place disponible")
 
 elif plaque_existe == True:
     exit(plaque)
+    print("Au revoir!")
