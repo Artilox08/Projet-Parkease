@@ -19,7 +19,7 @@ if plaque_existe == False:
         enter(plaque,heure)
         print("Bienvenue!")
     elif place_dispo >= place_total:
-        print("Plus de place disponible")
+        print("Plus de place disponible.")
 
 elif plaque_existe == True:
     exit(plaque)
