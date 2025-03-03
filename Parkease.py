@@ -1,4 +1,4 @@
-from parking import *
+from Parking import *
 from database import *
 from config import *
 from datetime import datetime

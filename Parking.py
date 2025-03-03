@@ -1,4 +1,3 @@
-from parking import *
 from database import *
 from config import *
 from datetime import datetime
@@ -28,6 +27,7 @@ def exit(plaque):
     for voiture in voitures:
         if voiture["plaque"] == plaque:
             heure_entree = datetime.strptime(voiture["entree"], "%H:%M:%S")
+            heure_entree = int(heure_entree)
             heure_sortie = datetime.now()
             duree = heure_sortie - heure_entree
             heures = duree.total_seconds() / 3600

@@ -3,11 +3,11 @@ import os
 import datetime 
 
 def lecture_json():
-    with open("C:/Users/korri/OneDrive/Bureau/projets GitHub/Projet ParkEase/data/bdd.json", 'r') as file:
+    with open("data/bdd.json", 'r') as file:
         data = json.load(file)
     return data
 
 
 def ecriture_json(data, indent):
-    with open("C:/Users/korri/OneDrive/Bureau/projets GitHub/Projet ParkEase/data/bdd.json", 'w') as file:
+    with open("data/bdd.json", 'w') as file:
         json.dump(data, file, indent = indent)
