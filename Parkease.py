@@ -24,3 +24,5 @@ if plaque_existe == False:
 elif plaque_existe == True:
     exit(plaque)
     print("Au revoir!")
+
+
