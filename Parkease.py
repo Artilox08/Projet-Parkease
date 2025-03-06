@@ -12,7 +12,7 @@ voitures = data.get("voitures", [])
 plaque_existe = any(voiture.get("plaque") == plaque for voiture in voitures)
 
 heure = datetime.now()
-heure = heure.strftime("%H:%M:%S")
+heure = heure.strftime("%H:%M")
 
 if plaque_existe == False:
     if place_dispo < place_total:
