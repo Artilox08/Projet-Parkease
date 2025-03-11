@@ -2,11 +2,11 @@
     "voitures": [
         {
             "plaque": "AB-123-CD",
-            "entree": "12:00:35"
+            "entree": "12:00"
         },
         {
             "plaque": "test",
-            "entree": "12:06:48"
+            "entree": "13:30"
         }
     ]
 }
